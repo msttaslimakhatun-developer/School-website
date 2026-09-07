@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .top-header {
+            background: #0d6efd;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .top-header a {
+            color: #fff;
+            text-decoration: none;
+            transition: .3s;
+        }
+
+        .top-header a:hover {
+            color: #ffc107;
+        }
+
+        .top-header i {
+            margin-right: 6px;
+            color: #ffc107;
+        }
+
+        .login-btn {
+            border: 1px solid rgba(255, 255, 255, .4);
+            padding: 5px 14px;
+            border-radius: 30px;
+            transition: .3s;
+        }
+
+        .login-btn:hover {
+            background: #ffc107;
+            color: #000 !important;
+            border-color: #ffc107;
+        }
+    </style>
+
+    <!-- Hover Effect -->
+    <style>
+        .hover-card {
+            transition: 0.3s;
+        }
+
+        .hover-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18) !important;
+        }
+    </style>
+
+    <!-- Hover Effect -->
+    <style>
+        .hover-card {
+            transition: 0.3s;
+        }
+
+        .hover-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18) !important;
+        }
+    </style>
+    <!-- Hover Effect -->
+    <style>
+        .hover-card {
+            transition: 0.3s;
+        }
+
+        .hover-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18) !important;
+        }
+    </style>
+    <section class="py-5" style="background-color: #f8f9fa;">
+    
+    <!-- Custom CSS for Modern Institute Layout -->
+    <style>
+        .course-card {
+            border: none;
+            border-radius: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            overflow: hidden; /* ছবি যেন কোণা দিয়ে বের হয়ে না যায় */
+        }
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+        }
+        .course-img-wrapper {
+            position: relative;
+            height: 200px;
+            width: 100%;
+        }
+        .course-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .free-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: #28a745;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 5px 12px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            z-index: 2;
+        }
+        .btn-enroll {
+            background-color: #0d6efd;
+            color: white;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+        .btn-enroll:hover {
+            background-color: #0b5ed7;
+            color: white;
+        }
+        .level-title {
+            position: relative;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <!-- -- navber start - -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background:#0d6efd;">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center fw-bold" href="Home.html">
+                <img src="asset/img/ChatGPT Image Jul 5, 2026, 11_44_02 AM.png" alt="Logo" width="40" height="40"
+                    class="me-2 rounded-circle">
+                Modern Technical Institute
+            </a>
+
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Home.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Courses.html" data-bs-toggle="dropdown">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Courses.html">All Courses</a></li>
+                            <li><a class="dropdown-item" href="">IT Support</a></li>
+                            <li><a class="dropdown-item" href="#">Web Design</a></li>
+                            <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+                            <li><a class="dropdown-item" href="#">Freelancing</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Facilities.html">Facilities</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Admission.html">Admission</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+
+                    <!-- Button -->
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-light btn-sm mt-2 mt-lg-0 fw-bold" href="Admission.html">
+                            Apply Now
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navigation Section End -->
+     <!-- Courses Section Starts -->
+
+    <div class="container">
+        
+        <!-- SECTION HEADER -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold text-dark display-6">আমাদের কোর্সসমূহ</h2>
+            <p class="text-muted">দক্ষতা অর্জন করুন সম্পূর্ণ বিনামূল্যে</p>
+            <div class="mx-auto bg-primary" style="width: 60px; height: 4px; border-radius: 2px;"></div>
+        </div>
+
+        <!-- ==================== LEVEL-3 COURSES ==================== -->
+        <div class="mb-5">
+            <h3 class="text-primary level-title">🔵 Level-3 Courses</h3>
+            <div class="row g-4">
+                
+                <!-- IT Support -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm course-card">
+                        <div class="course-img-wrapper">
+                            <span class="free-badge">Free</span>
+                            <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=600&q=80" alt="IT Support" class="course-img">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h4 class="card-title fw-bold text-dark mb-3 fs-5">IT Support Specialist</h4>
+                            <p class="card-text text-muted flex-grow-1">কম্পিউটার হার্ডওয়্যার, নেটওয়ার্কিং এবং ট্রাবলশুটিংয়ের বেসিক থেকে অ্যাডভান্সড স্কিল শিখুন।</p>
+                            <div class="d-flex justify-content-between align-items-center my-3 pt-3 border-top">
+                                <span class="text-muted small"><i class="bi bi-clock-history me-1 text-primary"></i>  Months</span>
+                                <span class="text-success fw-bold fs-5">Free</span>
+                            </div>
+                            <a href="Admission.html" class="btn btn-enroll py-2 mt-2">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Design -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm course-card">
+                        <div class="course-img-wrapper">
+                            <span class="free-badge">Free</span>
+                            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Web Design" class="course-img">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h4 class="card-title fw-bold text-dark mb-3 fs-5">Responsive Web Design</h4>
+                            <p class="card-text text-muted flex-grow-1">HTML5, CSS3 এবং Bootstrap ব্যবহার করে চমৎকার ও রেসপন্সিভ ওয়েবসাইট লেআউট তৈরি করা শিখুন।</p>
+                            <div class="d-flex justify-content-between align-items-center my-3 pt-3 border-top">
+                                <span class="text-muted small"><i class="bi bi-clock-history me-1 text-primary"></i> 3 Months</span>
+                                <span class="text-success fw-bold fs-5">Free</span>
+                            </div>
+                            <a href="Admission.html" class="btn btn-enroll py-2 mt-2">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Graphic Design -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm course-card">
+                        <div class="course-img-wrapper">
+                            <span class="free-badge">Free</span>
+                            <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=600&q=80" alt="Graphic Design" class="course-img">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h4 class="card-title fw-bold text-dark mb-3 fs-5">Professional Graphic Design</h4>
+                            <p class="card-text text-muted flex-grow-1">Adobe Photoshop এবং Illustrator-এর মাধ্যমে প্রফেশনাল লোগো, ব্যানার ও ব্র্যান্ডিং ডিজাইন শিখুন।</p>
+                            <div class="d-flex justify-content-between align-items-center my-3 pt-3 border-top">
+                                <span class="text-muted small"><i class="bi bi-clock-history me-1 text-primary"></i>  Months</span>
+                                <span class="text-success fw-bold fs-5">Free</span>
+                            </div>
+                            <a href="Admission.html" class="btn btn-enroll py-2 mt-2">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Dev Freelancing -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm course-card">
+                        <div class="course-img-wrapper">
+                            <span class="free-badge">Free</span>
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Web Dev Freelancing" class="course-img">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h4 class="card-title fw-bold text-dark mb-3 fs-5">Web Dev Freelancing</h4>
+                            <p class="card-text text-muted flex-grow-1">ওয়েব ডেভেলপমেন্টের কাজ নিয়ে Upwork, Fiverr এবং অন্যান্য মার্কেটপ্লেসে সফল ক্যারিয়ার গড়ার গাইডলাইন।</p>
+                            <div class="d-flex justify-content-between align-items-center my-3 pt-3 border-top">
+                                <span class="text-muted small"><i class="bi bi-clock-history me-1 text-primary"></i> 3 Months</span>
+                                <span class="text-success fw-bold fs-5">Free</span>
+                            </div>
+                            <a href="Admission.html" class="btn btn-enroll py-2 mt-2">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Graphic Freelancing -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm course-card">
+                        <div class="course-img-wrapper">
+                            <span class="free-badge">Free</span>
+                            <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=80" alt="Graphic Freelancing" class="course-img">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h4 class="card-title fw-bold text-dark mb-3 fs-5">Graphic Design Freelancing</h4>
+                            <p class="card-text text-muted flex-grow-1">ডিজাইন স্কিলকে কাজে লাগিয়ে ফ্রিল্যান্সিং মার্কেটপ্লেস থেকে ক্লায়েন্ট হান্টিং এবং আর্নিং করার কৌশল।</p>
+                            <div class="d-flex justify-content-between align-items-center my-3 pt-3 border-top">
+                                <span class="text-muted small"><i class="bi bi-clock-history me-1 text-primary"></i> 3 Months</span>
+                                <span class="text-success fw-bold fs-5">Free</span>
+                            </div>
+                            <a href="Admission.html" class="btn btn-enroll py-2 mt-2">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Graphics Design for Freelancing -->
+<div class="col-12 col-md-4">
+    <div class="card border-0 shadow h-100" style="border-radius: 15px; overflow: hidden;">
+        <!-- Free Badge -->
+        <span class="free-badge" style="position: absolute; top: 15px; right: 15px; background-color: #28a745; color: white; font-size: 12px; font-weight: bold; padding: 5px 12px; border-radius: 20px; text-transform: uppercase; z-index: 2;">Free</span>
+        
+        <!-- New Live Image Link -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2USrEsHFKZZmK3a1NJlR4Bnar5ug7JV8Rs5qLHZZouA&s=10"
+             class="card-img-top"
+             style="height:200px; object-fit:cover;"
+             alt="Graphic Design Freelancing">
+             
+        <div class="card-body d-flex flex-column p-4">
+            <h4 class="card-title fw-bold text-dark mb-3 fs-5">Graphic Design Freelancing</h4>
+            <p class="card-text text-muted flex-grow-1">ডিজাইন স্কিলকে কাজে লাগিয়ে ফ্রিল্যান্সিং মার্কেটপ্লেস থেকে ক্লায়েন্ট হান্টিং এবং আর্নিং করার কৌশল।</p>
+            
+            <!-- Duration & Fee Info -->
+            <div class="d-flex justify-content-between align-items-center my-3 pt-3 border-top">
+                <span class="text-muted small">
+                    <i class="bi bi-clock-history me-1 text-primary"></i> <strong>Duration:</strong> 3 Months
+                </span>
+                <span class="text-success fw-bold fs-5">Free</span>
+            </div>
+            
+            <!-- Enroll Button -->
+            <a href="Admission.html" class="btn btn-primary py-2 mt-2" style="border-radius: 8px; font-weight: 500;">Enroll Now</a>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+
+        <hr class="my-5" style="border-top: 1px dashed #ced4da;">
+
+        <!-- ==================== LEVEL-2 COURSES ==================== -->
+        <div>
+            <h3 class="text-warning level-title">🟡 Level-2 Courses</h3>
+            <div class="row g-4">
+                
+                <!-- Makeup Art -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm course-card">
+                        <div class="course-img-wrapper">
+                            <span class="free-badge">Free</span>
+                            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=600&q=80" alt="Makeup Art" class="course-img">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h4 class="card-title fw-bold text-dark mb-3 fs-5">Professional Makeup Art</h4>
+                            <p class="card-text text-muted flex-grow-1">আধুনিক ও পারফেক্ট মেকআপ টেকনিক, স্কিন কেয়ার গাইড এবং বিউটি পার্লার বিজনেসের খুঁটিনাটি।</p>
+                            <div class="d-flex justify-content-between align-items-center my-3 pt-3 border-top">
+                                <span class="text-muted small"><i class="bi bi-clock-history me-1 text-primary"></i>  Months</span>
+                                <span class="text-success fw-bold fs-5">Free</span>
+                            </div>
+                            <a href="Admission.html" class="btn btn-enroll py-2 mt-2">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- English for Work -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm course-card">
+                        <div class="course-img-wrapper">
+                            <span class="free-badge">Free</span>
+                            <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=600&q=80" alt="English for Work" class="course-img">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h4 class="card-title fw-bold text-dark mb-3 fs-5">English for Workplace</h4>
+                            <p class="card-text text-muted flex-grow-1">অফিসিয়াল কমিউনিকেশন, ইমেইল রাইটিং এবং স্পোকেন ইংলিশে পারদর্শী হওয়ার প্র্যাক্টিক্যাল কোর্স।</p>
+                            <div class="d-flex justify-content-between align-items-center my-3 pt-3 border-top">
+                                <span class="text-muted small"><i class="bi bi-clock-history me-1 text-primary"></i> 3 Months</span>
+                                <span class="text-success fw-bold fs-5">Free</span>
+                            </div>
+                            <a href="Admission.html" class="btn btn-enroll py-2 mt-2">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tour Guiding -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm course-card">
+                        <div class="course-img-wrapper">
+                            <span class="free-badge">Free</span>
+                            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&q=80" alt="Tour Guiding" class="course-img">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h4 class="card-title fw-bold text-dark mb-3 fs-5">Tour Guiding & Management</h4>
+                            <p class="card-text text-muted flex-grow-1">ট্যুরিজম সেক্টরে ক্যারিয়ার গড়ুন। কাস্টমার হ্যান্ডলিং, ট্যুর প্ল্যানিং এবং গাইডেন্সের প্রফেশনাল স্কিল।</p>
+                            <div class="d-flex justify-content-between align-items-center my-3 pt-3 border-top">
+                                <span class="text-muted small"><i class="bi bi-clock-history me-1 text-primary"></i> 3 Months</span>
+                                <span class="text-success fw-bold fs-5">Free</span>
+                            </div>
+                            <a href="Admission.html" class="btn btn-enroll py-2 mt-2">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Courses Section Ends -->
+
+<!-- footer srart -->
+
+    <footer class="bg-dark text-white pt-5">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <!-- About -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Modern Technical Institute</h5>
+                    <p class="text-muted">
+                        We provide professional IT & freelancing training to build your career in the digital
+                        world.
+                    </p>
+
+                    <!-- Social -->
+                    <div class="mt-3">
+                        <a href="#" class="btn btn-outline-light btn-sm me-2">Facebook</a>
+                        <a href="#" class="btn btn-outline-light btn-sm me-2">YouTube</a>
+                        <a href="#" class="btn btn-outline-light btn-sm">WhatsApp</a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="Home.html" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="Courses.html" class="text-muted text-decoration-none">Courses</a></li>
+                        <li><a href="About.html" class="text-muted text-decoration-none">About</a></li>
+                        <li><a href="" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Courses -->
+                <div class="col-md-3">
+                    <h6 class="fw-bold mb-3">Popular Courses</h6>
+                    <ul class="list-unstyled text-muted">
+                        <li>IT Support Service</li>
+                        <li>Web Design</li>
+                        <li>Graphic Design</li>
+                        <li>Freelancing</li>
+                        <li>Digital Marketing</li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-md-3">
+                    <h6 class="fw-bold mb-3">Newsletter</h6>
+                    <p class="text-muted">Subscribe to get updates</p>
+
+                    <form>
+                        <input type="email" class="form-control mb-2" placeholder="Your Email">
+                        <button class="btn btn-primary w-100">Subscribe</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <!-- Divider -->
+            <hr class="text-secondary mt-4">
+
+            <!-- Bottom -->
+            <div class="text-center pb-3">
+                <p class="mb-0 text-muted">
+                    © 2026 Modern Technical Institute. All Rights Reserved.
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    
+     </body>
+     </html>
